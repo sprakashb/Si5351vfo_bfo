@@ -8,6 +8,6 @@ Connect the outputs of VFO and BFO to your rig and enjoy stable VFO.
 
 Important:
 In the Si5351 library, edit si5351.h and replace as following
-#define SI5351_FREQ_MULT      1ULL                // originally it was 100ULL
+ #define SI5351_FREQ_MULT      1ULL                // originally it was 100ULL
 
 If this is not done your freq will be one hondredths of displayed freqs.
