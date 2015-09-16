@@ -7,7 +7,8 @@ To bring back normal display of VFO press the switch again for 1+ seconds.
 Connect the outputs of VFO and BFO to your rig and enjoy stable VFO.
 
 Important:
-In the Si5351 library, edit si5351.h and replace as following
+In the Si5351 library, edit si5351.h and edit as following:
+
  #define SI5351_FREQ_MULT      1ULL                // originally it was 100ULL
 
 If this is not done your freq will be one hondredths of displayed freqs.
